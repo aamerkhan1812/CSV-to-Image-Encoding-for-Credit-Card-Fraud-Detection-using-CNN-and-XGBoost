@@ -1,0 +1,84 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===============================
+# Virtual Environments
+# ===============================
+env/
+venv/
+ENV/
+.venv/
+
+# ===============================
+# Build / Packaging
+# ===============================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs & Temp
+# ===============================
+*.log
+*.tmp
+*.bak
+
+# ===============================
+# Data 
+# ===============================
+
+data/creditcard.csv
+data/*.xlsx
+
+
+# ===============================
+# Environment & Secrets
+# ===============================
+.env
+.env.local
+*.pem
+*.key
