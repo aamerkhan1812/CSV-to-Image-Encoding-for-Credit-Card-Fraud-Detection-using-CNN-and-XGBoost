@@ -1,0 +1,23 @@
+============================================================
+CNN + XGBoost Pipeline - Evaluation Report
+============================================================
+
+LOCKED METRICS:
+------------------------------------------------------------
+Recall:                  0.8878
+False Negative Rate:     0.1122
+ROC-AUC:                 0.9568
+
+CONFUSION MATRIX:
+------------------------------------------------------------
+True Negatives (TN):     54,349
+False Positives (FP):    2,515
+False Negatives (FN):    11
+True Positives (TP):     87
+
+CONFIGURATION:
+------------------------------------------------------------
+Decision Threshold:      0.5
+No retraining performed
+Normalization from training set used
+CNN weights frozen
